@@ -1,0 +1,11 @@
+# 전부 무시 (화이트리스트 방식)
+*
+# 하위 폴더 진입 허용
+!*/
+# HTML만 추적
+!*.html
+!.gitignore
+!.nojekyll
+
+# D는 별도 git repo이므로 통째로 제외
+D/
